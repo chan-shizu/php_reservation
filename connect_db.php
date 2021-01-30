@@ -21,7 +21,8 @@
 //    $PDO = new PDO($dsn,$user,$password);
 //    $PDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); //PDOのエラーレポートを表示
 
-$url = parse_url(getenv("mysql://b64195afff2cd8:e60f9c72@us-cdbr-east-03.cleardb.com/heroku_49ec5ffd2a8ed28?reconnect=true"));
+//CLEARDB_DATABASE_URL: mysql://[ユーザー名]:[パスワード]@[ホスト名]/[データベース名]?reconnect=true
+$url = parse_url(getenv("mysql://b64195afff2cd8:e60f9c72@us-cdbr-east-03.cleardb.com/heroku_49ec5ffd2a8ed28"));
 
 $server = $url["host"];
 $username = $url["user"];
