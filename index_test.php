@@ -159,9 +159,6 @@ $res = $PDO->query($sql);
                                 <br>
                                 <br>
                                 <br>
-                                <br>
-                                <br>
-                                <br>
 
                             </div>
                         </form>

@@ -102,10 +102,10 @@
                 </div>
                 <div class="col-3">
               </div>
-              <br>
-              <br>
-              <br>
             </div>
+            <br>
+            <br>
+            <br>
     </div>
 </div>
 </body>
