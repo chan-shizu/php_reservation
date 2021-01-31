@@ -75,7 +75,7 @@
         <div class="col-2">
         </div>
         <div class="border col-8">
-            <p>以下の内容で予約が登録されました．<?php echo $username?>さんとお会いできる日を楽しみにしています．<br>
+            <p>以下の内容で予約が登録されました．<?php echo $username?>さんとお会いできる日を楽しみにしています．<br><p>
             <label>コンテンツ：</label>
             <p class="alert alert-secondary" role="alert"><?php echo $content?></p>
             <label>日付：</label>
