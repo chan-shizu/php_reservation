@@ -60,28 +60,11 @@
                         <button type="submit" class="btn btn-outline-primary btn-block">新規登録</button>
                     </div>
                     <div class="col-1">
+                    <br>
+                    <br>
+                    <br>
                 </div>
             </form>
-            <?php
-            //$headers = "From: bubbler018@gmail.com";
-            //$email_content = "{$username} さん，予約を承りました.
-            //コンテンツは{$content}
-            //日付は{$reserved_date}
-            //開始時間は{$start_time}
-            //終了時間は{$end_time}
-            //となります．
-            //キャンセルの場合は2日前までに連絡してください．
-            //無断でキャンセルされた場合は，僕からの印象が悪くなる可能性があります．";
-//
-            //if(mb_send_mail($email, $username, $email_content, $headers))
-            //{
-            //    echo "メール送信成功です";
-            //}
-            //else
-            //{
-            //echo "メール送信失敗です";
-            //}
-            ?>
     </div>
 </div>
 </body>

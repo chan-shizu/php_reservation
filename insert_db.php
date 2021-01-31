@@ -97,11 +97,14 @@
               <div class="col-3">
               </div>
               <div class="col-5">
-                  <!--<button type="submit" class="btn btn-outline-primary btn-block">最初の画面に</button>-->
-                  <input type="button" class="btn btn-outline-secondary btn-block" onclick="location.href='./index_test.php'" value="最初の画面に戻る">
+                <!--<button type="submit" class="btn btn-outline-primary btn-block">最初の画面に</button>-->
+                <input type="button" class="btn btn-outline-secondary btn-block" onclick="location.href='./index_test.php'" value="最初の画面に戻る">
+                </div>
+                <div class="col-3">
               </div>
-              <div class="col-3">
-              </div>
+              <br>
+              <br>
+              <br>
             </div>
     </div>
 </div>
