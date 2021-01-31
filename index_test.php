@@ -156,8 +156,13 @@ $res = $PDO->query($sql);
                                 <div class="col-3">
                                 </div>
                                 </div>
-                                <div class="row center-block text-center">
-                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+
                             </div>
                         </form>
                     </div>
