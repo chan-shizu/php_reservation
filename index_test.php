@@ -162,56 +162,6 @@ $res = $PDO->query($sql);
             </div>
         </div>
     </div>
-    <br>
-    <br>
-    <hr>
-    <br>
-        <!--<h2>人事データ一覧</h2>
-        <div class="row">
-            <div class="col-md">
- 
-                <table class="table">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col">No</th>
-                            <th scope="col">氏名</th>
-                            <th scope="col">部署</th>
-                            <th scope="col">住所</th>
-                            <th scope="col">電話番号</th>
-                            <th scope="col">補足</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>侍1</td>
-                            <td>システム開発部</td>
-                            <td>神奈川県〇〇市〇〇区〇〇町X-X-X</td>
-                            <td>ZZZ-ZZZZ-ZZZZ</td>
-                            <td>2013年新卒入社</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>侍2</td>
-                            <td>システム開発部</td>
-                            <td>神奈川県〇〇市〇〇区〇〇町X-X-X</td>
-                            <td>ZZZ-ZZZZ-ZZZZ</td>
-                            <td>2010年新卒入社</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>侍3</td>
-                            <td>システム開発部</td>
-                            <td>神奈川県〇〇市〇〇区〇〇町X-X-X</td>
-                            <td>ZZZ-ZZZZ-ZZZZ</td>
-                            <td>1990年新卒入社</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <br>
-    </div>-->
  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
