@@ -1,7 +1,7 @@
 <?php
-    $dsn = 'mysql:dbname=heroku_49ec5ffd2a8ed28;host=us-cdbr-east-03.cleardb.com';
-    $user = 'b64195afff2cd8';
-    $password = 'e60f9c72';
+    $dsn = 'mysql:dbname=heroku_cfc8bc00474d7a7;host=us-cdbr-east-03.cleardb.com';
+    $user = 'b3bb46a27c2695';
+    $password = '7a273d74';
     //require_once("config_db.php");
 
     $PDO = new PDO($dsn, $user, $password); //MySQLのデータベースに接続
@@ -15,7 +15,6 @@
     //$PDO = new PDO($dsn, $user, $password); //MySQLのデータベースに接続
     //$PDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); //PDOのエラーレポートを表示
 
-//"mysql://b64195afff2cd8:e60f9c72@us-cdbr-east-03.cleardb.com/heroku_49ec5ffd2a8ed28?reconnect=true"
     //$db = parse_url($_SERVER["mysql://b64195afff2cd8:e60f9c72@us-cdbr-east-03.cleardb.com/heroku_49ec5ffd2a8ed28"]);
     //$db['dbname'] = ltrim($db['path'], '/');
     //$dsn = "mysql:host={$db['host']};dbname={$db['dbname']};charset=utf8";
@@ -29,6 +28,7 @@
     //$PDO = new PDO($dsn,$user,$password);
     //$PDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); //PDOのエラーレポートを表示
 
+    //mysql://b3bb46a27c2695:7a273d74@us-cdbr-east-03.cleardb.com/heroku_cfc8bc00474d7a7?reconnect=true
 //CLEARDB_DATABASE_URL: mysql://[ユーザー名]:[パスワード]@[ホスト名]/[データベース名]?reconnect=true
 //$url = parse_url(getenv("mysql://b64195afff2cd8:e60f9c72@us-cdbr-east-03.cleardb.com/heroku_49ec5ffd2a8ed28"));
 //
