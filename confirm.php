@@ -53,7 +53,8 @@
                     <div class="col-1">
                     </div>
                     <div class="col-5">
-                        <button type="button" class="btn btn-outline-secondary btn-block">閉じる</button>
+                        <!--<button type="button" class="btn btn-outline-secondary btn-block">閉じる</button>-->
+                        <input type="button" class="btn btn-outline-secondary btn-block" onclick="location.href='./index_test.php'" value="戻る">
                     </div>
                     <div class="col-5">
                         <button type="submit" class="btn btn-outline-primary btn-block">新規登録</button>

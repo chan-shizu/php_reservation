@@ -26,24 +26,24 @@
     $remarks = $_POST['remarks'];
 
     // メール送信
-    $headers = "From: bubbler018@gmail.com";
-    $email_content = "{$username} さん，予約を承りました.
-    コンテンツは{$content}
-    日付は{$reserved_date}
-    開始時間は{$start_time}
-    終了時間は{$end_time}
-    となります．
-    キャンセルの場合は2日前までに連絡してください．
-    無断でキャンセルされた場合は，僕からの印象が悪くなる可能性があります．";
-
-    if(mb_send_mail($email, $username, $email_content, $headers))
-    {
-        $message = "予約内容をメールで送信しました．ご確認下さい";
-    }
-    else
-    {
-        $message = "メール送信が失敗しました．正しいメールアドレスを入力してください．";
-    }
+    //$headers = "From: bubbler018@gmail.com";
+    //$email_content = "{$username} さん，予約を承りました.
+    //コンテンツは{$content}
+    //日付は{$reserved_date}
+    //開始時間は{$start_time}
+    //終了時間は{$end_time}
+    //となります．
+    //キャンセルの場合は2日前までに連絡してください．
+    //無断でキャンセルされた場合は，僕からの印象が悪くなる可能性があります．";
+//
+    //if(mb_send_mail($email, $username, $email_content, $headers))
+    //{
+    //    $message = "予約内容をメールで送信しました．ご確認下さい";
+    //}
+    //else
+    //{
+    //    $message = "メール送信が失敗しました．正しいメールアドレスを入力してください．";
+    //}
 
     $sql = "INSERT INTO reservation (content, reserved_date, start_time,end_time,username,email,remarks) VALUES (:content, :reserved_date, :start_time,:end_time,:username,:email,:remarks)"; // INSERT文を変数に格納。:nameや:categoryはプレースホルダという、値を入れるための単なる空箱
     $stmt = $PDO->prepare($sql); //挿入する値は空のまま、SQL実行の準備をする
@@ -92,6 +92,17 @@
             <p class="alert alert-secondary" role="alert"><?php echo $remarks?></p>
             
             <p> <?php echo $message?> </p>
+
+            <div class="row center-block text-center">
+              <div class="col-3">
+              </div>
+              <div class="col-5">
+                  <!--<button type="submit" class="btn btn-outline-primary btn-block">最初の画面に</button>-->
+                  <input type="button" class="btn btn-outline-secondary btn-block" onclick="location.href='./index_test.php'" value="最初の画面に戻る">
+              </div>
+              <div class="col-3">
+              </div>
+            </div>
     </div>
 </div>
 </body>

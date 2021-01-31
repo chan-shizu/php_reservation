@@ -148,15 +148,12 @@ $res = $PDO->query($sql);
                                 <textarea class="form-control" name="remarks" rows="3"></textarea>
                             </div>
                             <div class="row center-block text-center">
-                                <div class="col-1">
+                                <div class="col-3">
                                 </div>
                                 <div class="col-5">
-                                    <button type="button" class="btn btn-outline-secondary btn-block">閉じる</button>
+                                    <button type="submit" class="btn btn-outline-primary btn-block">予約</button>
                                 </div>
-                                <div class="col-5">
-                                    <button type="submit" class="btn btn-outline-primary btn-block">新規登録</button>
-                                </div>
-                                <div class="col-1">
+                                <div class="col-3">
                                 </div>
                             </div>
                         </form>
