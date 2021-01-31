@@ -60,12 +60,8 @@
                         <button type="submit" class="btn btn-outline-primary btn-block">新規登録</button>
                     </div>
                     <div class="col-1">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                </div>
+                <div class="row center-block text-center">
                 </div>
             </form>
     </div>
