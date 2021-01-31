@@ -60,9 +60,9 @@ $res = $PDO->query($sql);
         <h1>靜谷予約管理システム</h1>
         <br>
         <div class="row">
-            <div class="col-1">
+            <div class="col-xs-0 col-lg-1">
             </div>
-            <div class="border col-10">
+            <div class="border col-xs-12 col-lg-10">
                 <br>
                 <h2>今月の予約</h2>
                 <br>
@@ -111,7 +111,7 @@ $res = $PDO->query($sql);
                                     <option value="consultant">お悩み相談</option>
                                     <option value="movie">映画鑑賞</option>
                                     <option value="bookoff">BookOff</option>
-                                    <option value="bookoff">その他</option>
+                                    <option value="other">その他</option>
                                 </select>
                             </div>
 
@@ -148,12 +148,12 @@ $res = $PDO->query($sql);
                                 <textarea class="form-control" name="remarks" rows="3"></textarea>
                             </div>
                             <div class="row center-block text-center">
-                                <div class="col-3">
+                                <div class="col-2">
                                 </div>
-                                <div class="col-5">
+                                <div class="col-8">
                                     <button type="submit" class="btn btn-outline-primary btn-block">予約</button>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-2">
                                 </div>
                                 </div>
                                 <br>

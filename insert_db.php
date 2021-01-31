@@ -94,13 +94,13 @@
             <p> <?php echo $message?> </p>
 
             <div class="row center-block text-center">
-              <div class="col-3">
+              <div class="col-2">
               </div>
-              <div class="col-5">
+              <div class="col-8">
                 <!--<button type="submit" class="btn btn-outline-primary btn-block">最初の画面に</button>-->
                 <input type="button" class="btn btn-outline-secondary btn-block" onclick="location.href='./index_test.php'" value="最初の画面に戻る">
                 </div>
-                <div class="col-3">
+                <div class="col-2">
               </div>
             </div>
             <br>
