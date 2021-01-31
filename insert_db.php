@@ -72,9 +72,9 @@
     <h1>靜谷予約管理システム</h1>
     <br>
     <div class="row">
-        <div class="col-2">
+        <div class="col-xs-0 col-lg-2"">
         </div>
-        <div class="border col-8">
+        <div class="border col-xs-12 col-lg-10">
             <p>以下の内容で予約が登録されました．<?php echo $username?>さんとお会いできる日を楽しみにしています．<br><p>
             <label>コンテンツ：</label>
             <p class="alert alert-secondary" role="alert"><?php echo $content?></p>

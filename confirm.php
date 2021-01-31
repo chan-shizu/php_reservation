@@ -23,9 +23,9 @@
     <h1>靜谷予約管理システム</h1>
     <br>
     <div class="row">
-        <div class="col-2">
+        <div class="col-xs-0 col-lg-2">
         </div>
-        <div class="border col-8">
+        <div class="border col-xs-12 col-lg-10">
             <p>記載内容に間違いが無ければ，登録をお願いします．<br>
             <label>コンテンツ：</label>
             <p class="alert alert-secondary" role="alert"><?php echo $content?></p>
